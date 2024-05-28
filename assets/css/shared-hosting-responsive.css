@@ -1,0 +1,148 @@
+/*------------ Shared Hosting Page Responsive Styles ----------*/
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*----------- Shared Pricing  Styles -----------*/
+  .shared-pricing-item {
+    margin: 0px 13px;
+  }
+  .shared-pricing-item .pricing-item-btn a {
+    margin-left: -7.5%;
+  }
+  /*----------- Shared Pricing  Styles -----------*/
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*----------- Basic Styles -----------*/
+  .area-title .title-up {
+    font-size: 16px;
+  }
+  .area-title .title-down {
+    font-size: 50px;
+  }
+  /*----------- Basic Styles -----------*/
+  /*----------- Page Header Styles ----------*/
+  .page-header {
+    padding: 150px 0 100px 0;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 50px;
+    margin-top: 5%;
+  }
+  /*----------- Page Header Styles ----------*/
+  /*----------- Shared Pricing  Styles -----------*/
+  .shared-pricing-item .pricing-item-icon i {
+    font-size: 50px;
+  }
+  .shared-pricing-item .pricing-item-title h2 {
+    font-size: 35px;
+  }
+  .shared-pricing-item .pricing-item-title p {
+    font-size: 12px;
+  }
+  .shared-pricing-item .pricing-item-details i {
+    padding-right: 14px;
+    line-height: 2.5;
+  }
+  .shared-pricing-item {
+    margin: 0 10px;
+  }
+  .shared-pricing-item .pricing-item-btn a {
+    font-size: 10px;
+    padding: 6px 15px;
+    margin-top: 2.5%;
+    margin-left: -6%;
+  }
+  .shared-pricing-item .price {
+    font-size: 50px;
+  }
+  .shared-pricing-item .time {
+    font-size: 14px;
+  }
+  /*----------- Shared Pricing  Styles -----------*/
+  /*----------- More Features Styles -----------*/
+  .features .feature-item {
+    margin-bottom: 15px;
+  }
+  /*----------- More Features Styles -----------*/
+  /*----------- Features Tab Styles -----------*/
+  .tab-inner-right .tab-inner-title1 {
+    font-size: 16px;
+  }
+  .tab-inner-right .tab-inner-title2 {
+    font-size: 40px;
+  }
+  /*----------- Features Tab Styles -----------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*----------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 14px;
+  }
+  .page-header .header-pagination p {
+    margin: 14px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 12px;
+    padding: 0 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 45px;
+  }
+  /*----------- Page Header Styles ----------*/
+  /*----------- Shared Pricing Styles ----------*/
+  .shared-pricing-item {
+    width: 95%;
+    margin: 30px 15px;
+  }
+  .shared-pricing-item .pricing-item-btn a {
+    margin-top: 2%;
+    margin-left: -11.5%;
+  }
+  /*----------- Shared Pricing Styles ----------*/
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /*----------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 10px;
+  }
+  .page-header .header-pagination p {
+    margin: 10px 0;
+  }
+  .page-header .header-pagination p a {
+    padding: 0 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 35px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  /*----------- Page Header Styles ----------*/
+  /*----------- Shared Pricing Styles ----------*/
+  .shared-pricing-item .pricing-item-title h2 {
+    font-size: 35px;
+  }
+  .shared-pricing-item .pricing-item-title p {
+    font-size: 12px;
+  }
+  .shared-pricing-item .price {
+    font-size: 50px;
+  }
+  .shared-pricing-item .time {
+    font-size: 14px;
+  }
+  .shared-pricing-item .pricing-item-btn a {
+    font-size: 12px;
+    padding: 12px 20px;
+    margin-top: 5%;
+    margin-left: -17.5%;
+  }
+  /*----------- Shared Pricing Styles ----------*/
+}

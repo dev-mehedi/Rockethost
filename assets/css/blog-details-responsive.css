@@ -1,0 +1,311 @@
+/*------------ Blog Page Resposive Styles ------------*/
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*---------- Blog Details Styles -------------*/
+  .blog-details .sidebar-item .sidebar-item-insta .insta-title::before {
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-insta .insta-title::after {
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-followus .followus-title::before {
+    top: 21.9%;
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-followus .followus-title::after {
+    top: 21.9%;
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-followus .sidebar-item-details a i {
+    font-size: 12px;
+    margin: 0 2px;
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+  }
+  .blog-details .sidebar-item .sidebar-item-categories .categories-title::before {
+    top: 32.6%;
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-categories .categories-title::after {
+    top: 32.6%;
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-latestpost .latestpost-title::before {
+    top: 52.9%;
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-latestpost .latestpost-title::after {
+    top: 52.9%;
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-tags .tags-title::before {
+    top: 85.5%;
+    width: 40px;
+  }
+  .blog-details .sidebar-item .sidebar-item-tags .tags-title::after {
+    top: 85.5%;
+    width: 40px;
+  }
+  /*---------- Blog Details Styles -------------*/
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*--------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 25px;
+  }
+  .page-header .header-pagination p {
+    margin: 15px 0;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 50px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*--------- Page Header Styles ----------*/
+  /*---------- Blog Details Styles -------------*/
+  .blog-details {
+    padding: 100px 0;
+  }
+  .blog-details .blog-details-post .blog-post-item .blog-post-extension {
+    padding: 0 40px 0px 40px;
+  }
+  .blog-details .blog-post-extension .blog-item-date {
+    padding: 20px 30px;
+    margin-top: -8%;
+  }
+  .blog-details .blog-post-extension .blog-item-date p {
+    font-size: 40px;
+  }
+  .blog-details .blog-post-extension .blog-item-comment {
+    margin: 0 30px;
+  }
+  .blog-details .blog-post-extension .blog-item-title a h3 {
+    font-size: 25px;
+  }
+  .blog-details .blog-post-extension .blog-item-des p {
+    font-size: 14px;
+  }
+  .blog-details .blog-post-extension .blog-post-des-comment p {
+    font-size: 12px;
+  }
+  .blog-details .blog-post-extension .blog-post-des-comment i {
+    font-size: 40px;
+    margin-top: 70%;
+  }
+  .blog-details .blog-post-extension .blog-post-comment {
+    padding: 10px 0;
+  }
+  .blog-details .blog-post-extension .blog-post-extras .blog-post-social i {
+    font-size: 16px;
+    margin: 10px 5px;
+  }
+  .blog-details .blog-post-extension .blog-post-write-comment .comment-form-area .comment-msg-area span {
+    margin-left: -6%;
+  }
+  .blog-details .blog-post-extension .blog-post-write-comment .comment-form-area span {
+    margin-left: -8%;
+  }
+  .blog-details .sidebar-item .sidebar-item-title h3 {
+    font-size: 20px;
+  }
+  .blog-details .sidebar-item .sidebar-item-insta .insta-title::before,
+  .blog-details .sidebar-item .sidebar-item-insta .insta-title::after {
+    width: 35px;
+  }
+  .blog-details .sidebar-item .sidebar-item-insta .sidebar-item-details > .row > .col-sm-4 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .blog-details .sidebar-item .sidebar-item-followus .sidebar-item-details a i {
+    font-size: 12px;
+    margin: 0;
+    padding: 8px;
+    height: 30px;
+    width: 30px;
+  }
+  .blog-details .sidebar-item .sidebar-item-followus .followus-title::before,
+  .blog-details .sidebar-item .sidebar-item-followus .followus-title::after {
+    top: 18.4%;
+    width: 35px;
+  }
+  .blog-details .sidebar-item .sidebar-item-categories .categories-title::before,
+  .blog-details .sidebar-item .sidebar-item-categories .categories-title::after {
+    top: 27.8%;
+    width: 35px;
+  }
+  .blog-details .sidebar-item .sidebar-item-latestpost .latestpost-title::before,
+  .blog-details .sidebar-item .sidebar-item-latestpost .latestpost-title::after {
+    top: 46.9%;
+    width: 35px;
+  }
+  .blog-post-time {
+    font-size: 12px;
+  }
+  .blog-details .sidebar-item .sidebar-item-tags .tags-title::before,
+  .blog-details .sidebar-item .sidebar-item-tags .tags-title::after {
+    top: 84%;
+    width: 35px;
+  }
+  .blog-details .sidebar-item .sidebar-item-tags .sidebar-tag {
+    font-size: 12px;
+  }
+  /*---------- Blog Details Styles -------------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*--------- Page Header Styles ---------*/
+  .header-pagination {
+    padding: 0 15px;
+  }
+  .page-header .header-pagination p {
+    margin: 10px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 40px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*--------- Page Header Styles ---------*/
+  /*---------- Blog Details Styles -------------*/
+  .blog-details {
+    padding: 40px 0;
+  }
+  .blog-details .blog-post-extension .blog-item-date {
+    padding: 20px 30px;
+    margin-top: -6%;
+  }
+  .blog-details .blog-post-extension .blog-item-date p {
+    font-size: 30px;
+  }
+  .blog-details .blog-post-extension .blog-item-date p span {
+    font-size: 12px;
+  }
+  .blog-details .blog-post-extension .blog-item-comment {
+    margin: 0 20px;
+  }
+  .blog-details .blog-post-extension .blog-item-title a h3 {
+    font-size: 25px;
+  }
+  .blog-details .blog-post-extension .blog-item-des p {
+    font-size: 14px;
+  }
+  .blog-details .blog-post-extension .blog-post-des-comment i {
+    font-size: 45px;
+    margin-top: 20%;
+  }
+  .blog-details .blog-post-extension .blog-post-des-comment p {
+    font-size: 12px;
+  }
+  .blog-details .blog-post-extension .blog-post-extras .blog-post-social i {
+    font-size: 14px;
+    margin: 10px 6px;
+  }
+  .blog-details .blog-post-extension .blog-post-write-comment .comment-form-area .comment-msg-area span {
+    margin-left: -6%;
+  }
+  .blog-details .blog-post-extension .blog-post-write-comment .comment-form-area span {
+    margin-left: -8%;
+  }
+  .blog-details .sidebar-item .sidebar-item-insta .sidebar-item-details > .row > .col-sm-4 > img {
+    width: 100%;
+  }
+  .blog-details .sidebar-item .sidebar-item-insta .insta-title::before,
+  .blog-details .sidebar-item .sidebar-item-insta .insta-title::after,
+  .blog-details .sidebar-item .sidebar-item-followus .followus-title::before,
+  .blog-details .sidebar-item .sidebar-item-followus .followus-title::after,
+  .blog-details .sidebar-item .sidebar-item-categories .categories-title::before,
+  .blog-details .sidebar-item .sidebar-item-categories .categories-title::after,
+  .blog-details .sidebar-item .sidebar-item-latestpost .latestpost-title::before,
+  .blog-details .sidebar-item .sidebar-item-latestpost .latestpost-title::after,
+  .blog-details .sidebar-item .sidebar-item-tags .tags-title::before,
+  .blog-details .sidebar-item .sidebar-item-tags .tags-title::after {
+    visibility: hidden;
+  }
+  /*---------- Blog Details Styles -------------*/
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /*--------- Page Header Styles ---------*/
+  .page-header {
+    padding: 130px 0 80px 0;
+  }
+  .header-pagination {
+    padding: 0 5px;
+  }
+  .page-header .header-pagination p {
+    margin: 6px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 10px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 35px;
+  }
+  .page-header .page-header-title p {
+    font-size: 12px;
+  }
+  /*--------- Page Header Styles ---------*/
+  /*---------- Blog Details Styles -------------*/
+  .blog-details {
+    padding: 40px 0;
+  }
+  .blog-details .blog-details-post .blog-post-item .blog-post-extension {
+    padding: 0 30px 30px 30px;
+  }
+  .blog-details .blog-post-extension .blog-item-date {
+    padding: 5px 15px;
+    margin-top: -7%;
+  }
+  .blog-details .blog-post-extension .blog-item-date p {
+    font-size: 20px;
+  }
+  .blog-details .blog-post-extension .blog-item-date p span {
+    font-size: 10px;
+  }
+  .blog-details .blog-post-extension .blog-item-comment {
+    margin: 0 10px;
+  }
+  .blog-details .blog-post-extension .blog-item-comment p,
+  .blog-details .blog-post-extension .blog-item-share p {
+    font-size: 11px;
+  }
+  .blog-details .blog-post-extension .blog-item-title a h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .blog-details .blog-post-extension .blog-post-des p {
+    font-size: 12px;
+  }
+  .blog-details .blog-post-extension .blog-post-des-comment i {
+    font-size: 26px;
+    margin-top: 70%;
+  }
+  .blog-details .blog-post-extension .blog-post-comment img {
+    width: 120%;
+  }
+  .blog-details .blog-post-extension .blog-post-write-comment .comment-form-area .comment-msg-area span {
+    margin-left: -8%;
+  }
+  .blog-details .blog-post-extension .blog-post-write-comment .comment-form-area span {
+    margin-left: -11%;
+  }
+  .blog-details .sidebar-item .sidebar-item-followus .sidebar-item-details a i {
+    font-size: 12px;
+    margin: 0 1px;
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+  }
+  /*---------- Blog Details Styles -------------*/
+}

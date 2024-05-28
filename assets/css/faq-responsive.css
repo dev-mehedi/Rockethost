@@ -1,0 +1,104 @@
+/*------------ FAQ Page Responsive Styles ----------*/
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*----------- Domain Styles -------------*/
+	.domain-area .domain-area-inner p {
+    font-size: 40px;
+	}
+	/*----------- Domain Styles -------------*/
+  /*----------- FAQ Styles ------------*/
+  .faq {
+    margin: 90px 0;
+  }
+  /*----------- FAQ Styles ------------*/
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*----------- Page Header Styles -----------*/
+  .page-header {
+    padding: 150px 0 150px 0;
+  }
+  /*----------- Page Header Styles -----------*/
+  /*----------- Domain Styles -----------*/
+  .domain-area .domain-area-inner {
+    margin-top: -20%;
+  }
+  .domain-area .domain-area-inner p {
+    font-size: 30px;
+  }
+  .domain-form input {
+    padding: 16px 120px 16px 40px;
+  }
+  /*----------- Domain Styles -----------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*----------- Page Header Styles -----------*/
+  .page-header {
+    padding: 150px 0 150px 0;
+  }
+  .page-header .header-pagination p {
+    margin: 12px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 50px;
+    margin-top: 5%;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*----------- Page Header Styles -----------*/
+  /*----------- Domain Styles -----------*/
+  .domain-area .domain-area-inner p {
+    font-size: 40px;
+    line-height: 1.2;
+    padding: 30px 0 0 0;
+    margin-bottom: 0;
+  }
+  .domain-area .domain-area-inner {
+    padding: 50px 0;
+    margin-top: -25%;
+  }
+  .domain-form select {
+    padding: 7px 18px 8px 15px;
+    background-size: 10px;
+  }
+  .domain-form > .domain-search.button1 a {
+    padding: 13px 25px 13px 25px !important;
+  }
+  /*----------- Domain Styles -----------*/
+  /*----------- FAQ Styles -----------*/
+  .faq {
+    margin: 80px 0;
+  }
+  .faq-inner .faq-inner-item {
+    margin-bottom: 15px;
+  }
+  /*----------- FAQ Styles -----------*/
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /*----------- Domain Styles -----------*/
+  .domain-area .domain-area-inner {
+    margin-top: -42%;
+  }
+  .domain-area .domain-area-inner p {
+    font-size: 30px;
+  }
+  .domain-form select {
+    margin-left: -104px;
+    background-size: 9px;
+  }
+  .domain-form > .domain-search.button1 a {
+    margin-left: -44px !important;
+    padding: 15px 15px 13px 15px !important;
+  }
+  /*----------- Domain Styles -----------*/
+}

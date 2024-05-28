@@ -1,0 +1,426 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : RocketHost
+* Template Name : RocketHost- HTML Template
+* File          : RocketHost Checkout Page CSS file
+* Version       : 1.0
+* ----------------------------------------------------------------------------------------*/
+
+/*--------------------------------------- 
+========INDEX========
+1. Basic Styles
+2. Header Top Styles
+3. Main Menu Styles
+4. Page Header Styles
+5. Checkout Billing Styles
+6. Support Styles
+7. Live Chat Styles
+8. Footer Styles
+  - Footer Down Styles
+---------------------------------------*/
+
+/*--------- Basic Styles ---------*/
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+/* Button Styles */
+nav.navbar.bootsnav ul.nav > li.button1 > a,
+.checkout-billing .billing-details .order-inner .order-btn a,
+.live-chat a,
+.footer .footer-up .footer-item .subscribe-form a {
+  border-bottom: none !important;
+  color: #fff !important;
+  background: #6958ca;
+  padding: 19px 30px 19px 30px !important;
+  margin: 15px 0 15px 36px !important;
+  border-radius: 35px;
+  text-decoration: none;
+}
+nav.navbar.bootsnav ul.nav > li.button1 > a:hover,
+.checkout-billing .billing-details .order-inner .order-btn a:hover,
+.live-chat a:hover,
+.footer .footer-up .footer-item .subscribe-form a:hover {
+  color: #fff !important;
+  background: #7c71b9;
+}
+.area-title {
+  margin-bottom: 70px;
+}
+.area-title .title-up {
+  font-size: 18px;
+  color: #6958ca;
+}
+.area-title .title-down {
+  font-size: 60px;
+  font-weight: 100;
+  color: #5e5e70;
+  line-height: 1;
+}
+/*--------- Basic Styles ---------*/
+
+/*--------- Header Top Styles  ---------*/
+.header-top {
+  padding: 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.header-top .header-top-left .logo img {
+  padding-top: 10px;
+}
+.header-top .header-top-right .item p {
+  display: inline-block;
+  margin: 0;
+  font-size: 14px;
+  color: #a0a0b0;
+  padding-left: 5px;
+}
+.header-top .header-top-right .item i {
+  color: #6958ca;
+  font-size: 14px;
+}
+.header-top .header-top-right .item h4 {
+  font-size: 20px;
+  color: #5e5e70;
+  font-weight: 600;
+  padding-left: 9%;
+}
+.header-top .header-top-right .item h4 a {
+  color: #5e5e70;
+  text-decoration: none;
+}
+/*------------- Header Top Styles ------------------*/
+
+/*------------- Main Menu Styles ------------------*/
+.wrap-sticky {
+  height: 0 !important;
+}
+nav.navbar.bootsnav ul.nav > li > a,
+nav.navbar.bootsnav ul.nav > li.dropdown > a {
+  color: #a3a7b9;
+  padding: 22px 0px 20px 0;
+  font-weight: 600;
+  margin: 15px 25px;
+  border-bottom: 1px dotted transparent;
+  border-bottom-width: 4px;
+}
+nav.navbar.bootsnav ul.nav > li > a:active {
+  color: #6958ca;
+  border-bottom: 1px dotted !important;
+  border-bottom-width: 4px !important;
+  transition: all 0.4s ease-in;
+}
+/*--------- Main Menu Styles ---------*/
+
+/*--------- Page Header Styles ---------*/
+.page-header {
+  background: url(../images/clr-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  padding: 200px 0 100px 0;
+  margin: 0;
+}
+.header-pagination {
+  display: inline-block;
+  padding: 0 30px;
+  border: 1px solid #eaeaea;
+  border-radius: 40px;
+}
+.page-header .header-pagination p {
+  display: inline-block;
+  margin: 20px 0;
+}
+.page-header .header-pagination p a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #72728f;
+  padding: 0 20px;
+}
+.page-header .header-pagination p:first-child a {
+  border-right: 1px solid #eaeaea;
+}
+.page-header .header-pagination p a:hover {
+  color: #6958ca;
+}
+.page-header .header-pagination p .active {
+  color: #6958ca;
+}
+.page-header .page-header-title h2 {
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 3%;
+}
+.page-header .page-header-title p {
+  width: 80%;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2%;
+}
+/*--------- Page Header Styles ---------*/
+
+/*--------- Checkout Billing Styles ---------*/
+.checkout-billing {
+  padding: 100px 0 150px 0;
+}
+.login-msg-inner,
+.coupon-msg-inner {
+  margin: 15px 0;
+  padding: 35px 40px;
+  background: #6958ca;
+  color: #fff;
+  border-radius: 60px;
+  font-size: 16px;
+}
+.login-msg-inner a, .coupon-msg-inner a {
+  font-size: 16px;
+  color: #fff;
+}
+.billing-details .billing-form .country,
+.billing-details .billing-form .district {
+  padding: 2px 15px;
+}
+.checkout-billing .billing-details {
+  padding: 40px 0;
+}
+.checkout-billing .billing-details .billing-title h3,
+.checkout-billing .billing-details .order-title h3 {
+  font-weight: 100;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.checkout-billing .billing-details .billing-form label {
+  font-size: 14px;
+  font-weight: 400;
+}
+.checkout-billing .billing-details .billing-form label span {
+  color: #6958ca;
+}
+.checkout-billing .billing-details .billing-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #efefef;
+  border-radius: 30px;
+  outline: none;
+  margin-bottom: 6%;
+}
+.checkout-billing .billing-details .billing-form textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px 25px;
+  border: 1px solid #efefef;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 6%;
+}
+.checkout-billing .billing-details input#create-account,
+.checkout-billing .billing-details input#shipping-address2 {
+  width: 3%;
+}
+.checkout-billing .billing-details .billing-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #efefef;
+  border-radius: 30px;
+  outline: none;
+  margin-bottom: 7%;
+  -webkit-appearance: none;
+  background-image: url(../images/down.svg);
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position-x: 90%;
+  background-position-y: 52%;
+  cursor: pointer;
+}
+.checkout-billing .billing-details .shipping-details-title {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 100;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.checkout-billing .billing-details .order-inner .order-inner-title {
+  padding: 0 0 30px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #efefef;
+}
+.checkout-billing .billing-details .order-inner .order-item,
+.checkout-billing .billing-details .order-inner .order-item-subtotal,
+.checkout-billing .billing-details .order-inner .order-tax,
+.checkout-billing .billing-details .order-inner .order-total {
+  padding: 15px 0 50px 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #efefef;
+}
+.checkout-billing .billing-details .order-inner .order-shipping {
+  padding: 15px 0 15px 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #efefef;
+}
+.checkout-billing .billing-details .order-inner .order-shipping p:first-child,
+.checkout-billing .billing-details .order-inner .order-item-subtotal p:first-child {
+  font-weight: 600;
+}
+.checkout-billing .billing-details .order-inner label {
+  font-weight: 400;
+  padding-left: 2%;
+}
+.checkout-billing .billing-details .order-inner .order-cash-card p {
+  padding: 0;
+}
+.checkout-billing .billing-details .order-inner .order-cash-card a {
+  text-decoration: none;
+  padding: 0;
+}
+.checkout-billing .billing-details .order-inner .order-cash-card a i {
+  font-size: 20px;
+  margin: 0 5px;
+}
+.checkout-billing .billing-details .order-inner .order-cash-text p {
+  margin: 20px 0;
+  padding: 20px 30px;
+  background: #6958ca;
+  color: #fff;
+  border-radius: 50px;
+}
+.checkout-billing .billing-details .order-inner .order-btn {
+  margin: 25px 0 0 -36px !important;
+}
+/*--------- Checkout Billing Styles ---------*/
+
+/*----------- Support Styles -------------------*/
+.support {
+  background: #0b1424;
+}
+.online-support {
+  margin-top: -6%;
+}
+.support-item {
+  background: #fff;
+  padding: 21px;
+  margin: 13px;
+  width: 31%;
+  -webkit-box-shadow: 0px 11px 31px 8px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 11px 31px 8px rgba(0,0,0,0.1);
+  box-shadow: 0px 11px 31px 8px rgba(0,0,0,0.1);
+}
+.support-item i {
+  display: inline;
+  color: #6958ca;
+  font-size: 50px;
+  padding-right: 20px;
+}
+.support-item .support-item-title .support-title-up {
+  color: #6958ca;
+}
+.support-item .support-item-title .support-title-down {
+  font-size: 30px;
+  font-weight: 100;
+  color: #5e5e70;
+}
+.support-item-title {
+  display: inline-block;
+}
+/*------------ Support Styles ------------
+
+/*------------ Live Chat Styles ------------*/
+.live-chat {
+  padding: 70px 0;
+  background: #0b1424;
+}
+.live-chat img {
+  padding-top: 5%;
+}
+/*------------- Live Chat Styles -------------*/
+
+/*------------- Footer Styles  -------------*/
+.footer {
+  background: #0b1424;
+}
+.row.footer-up {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding: 60px 0;
+}
+.footer .footer-item-title {
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
+}
+.footer .footer-up .footer-item .subscribe-form input {
+  width: 100%;
+  margin: 12px 0;
+  padding: 15px 21px;
+  border: none;
+  outline: none;
+  background: #101b2f;
+  border-radius: 7px;
+  color: #fff;
+}
+.subscribe-form ::-webkit-input-placeholder { /* Chrome */
+  color: #fff;
+}
+.subscribe-form  :-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.subscribe-form  ::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+}
+.subscribe-form  :-moz-placeholder { /* Firefox 4 - 18 */
+  color: #fff;
+  opacity: 1;
+}
+.footer .footer-up .footer-item .subscribe-form a {
+  position: relative;
+  display: inline-block;
+  margin: 5% 0 0 0 !important;
+}
+.blog-post-title {
+  color: #a7aab9;
+}
+.blog-post-title:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-services p {
+  color: #a7aab9;
+}
+.more-pages a {
+  text-decoration: none;
+}
+.more-pages a i {
+  padding-right: 3%;
+}
+.more-pages a:hover {
+  margin-left: 5%;
+  color: #6958ca;
+}
+/* Footer Down Styles */
+.footer-down {
+  padding: 30px 0;
+  font-size: 16px;
+}
+.footer-down p span a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-down .pull-right a {
+  text-decoration: none;
+  color: #6b7085;
+}
+.footer-down .pull-right a i {
+  padding: 0 15px;
+}
+.footer-down .pull-right a i:hover {
+  color: #fff;
+  transform: rotateX(360deg);
+  animation: a 0.5s;
+}
+/*----------- Footer Down Styles -----------*/
+/*----------- Footer Styles  -----------*/

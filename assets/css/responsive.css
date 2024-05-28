@@ -1,0 +1,617 @@
+/*------------ Home Page Resposive Styles ------------*/
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*---------- Header Styles --------*/
+  .header-top .header-top-left .logo img {
+    /* padding-top: 25px; */
+  }
+  .header-top .header-top-right .item p {
+    font-size: 12px;
+  }
+  .header-top .header-top-right .item i {
+    font-size: 12px;
+  }
+  .header-top .header-top-right .item h4 {
+    font-size: 18px;
+  }
+  nav.navbar.bootsnav ul.nav > li > a,
+  nav.navbar.bootsnav ul.nav > li.dropdown > a {
+    margin: 15px 17px;
+  }
+  /*-------------- Header Styles --------------*/
+
+  /*-------------- Banner Styles --------------*/
+  .banner .banner-inner .banner-inner-right p {
+    font-size: 45px;
+  }
+  /*-------------- Banner Styles --------------*/
+
+  /*-------------- Client Styles --------------*/
+  .client-story-inner video {
+    width: 65vh;
+    height: auto;
+    margin-top: 9%;
+  }
+  .client-story .client-story-inner-right-title {
+    font-size: 45px;
+  }
+  .client-story .client-story-inner-right p:nth-child(4) {
+    font-size: 14px;
+  }
+  /*-------------- Client Styles --------------*/
+
+  /*-------------- FAQ Styles --------------*/
+  .faq-inner .faq-inner-item .faq-inner-item-title span {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .faq-inner .faq-inner-item .faq-inner-item-title p {
+    font-size: 17px;
+  }
+  /*-------------- FAQ Styles --------------*/
+  /*-------------- Comment Styles --------------*/
+  .comment .area-title .title-down {
+    font-size: 45px;
+  }
+  .comment .comment-inner .msg {
+    font-size: 14px;
+  }
+  .comment .comment-inner .comment-person .person-company {
+    font-size: 12px;
+  }
+  .comment .comment-inner .comment-person .person-name {
+    font-size: 22px;
+  }
+  /*-------------- Comment Styles --------------*/
+  /*-------------- Tab Styles --------------*/
+  .tab-inner video {
+    width: 450px;
+  }
+  .tab-inner-right .tab-inner-title2 {
+    font-size: 40px;
+  }
+  /*-------------- Tab Styles --------------*/
+  /*-------------- Contact Styles --------------*/
+  .contact-right-address-right {
+    padding: 17px;
+  }
+  /*-------------- Contact Styles --------------*/
+  /*-------------- Support Styles --------------*/
+  .support-item .support-item-title .support-title-down {
+    font-size: 25px;
+  }
+  .support-item {
+    margin: 13px 10px;
+  }
+  /*-------------- Support Styles --------------*/
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*------------ Basic Styles ------------*/
+  .area-title .title-up {
+    font-size: 14px;
+  }
+  .area-title .title-down {
+    font-size: 35px;
+  }
+  /*------------ Basic Styles ------------*/
+  /*----------- Header Top Styles -----------*/
+  .header-top .header-top-left .logo img {
+    padding-top: 30px;
+  }
+  .header-top .header-top-right .item h4 {
+    font-size: 15px;
+  }
+  .header-top .header-top-right .item p {
+    display: inline-block;
+    margin: 0;
+    font-size: 11px;
+    color: #a0a0b0;
+    padding-left: 5px;
+  }
+  .header-top .header-top-right .item i {
+    font-size: 12px;
+  }
+  /*----------- Header Top Styles -----------*/
+  /*----------- Menu Bar Styles -----------*/
+  nav.navbar.bootsnav ul.nav > li > a,
+  nav.navbar.bootsnav ul.nav > li.dropdown > a {
+    width: 25%;
+  }
+  /*----------- Menu Bar Styles -----------*/
+  /*----------- Banner Styles -----------*/
+  .banner .banner-inner .banner-inner-right p {
+    font-size: 35px;
+    line-height: 1;
+  }
+  .domain-form input {
+    padding: 16px 70px 16px 12px;
+  }
+  .domain-form > .domain-search.button1 a {
+    padding: 19px 20px 19px 15px !important;
+    font-size: 10px;
+  }
+  /*----------- Banner Styles -----------*/
+  /*----------- Feature Styles -----------*/
+  .feature .feature-item {
+    margin: 10px 0;
+  }
+  /*--------- Feature Styles ---------*/
+  /*------------ Client Styles ------------*/
+  .client-story .client-story-inner-right p:first-child {
+    font-size: 14px;
+  }
+  .client-story .client-story-inner-right-title {
+    font-size: 45px;
+  }
+  /*------------ Client Styles ------------*/
+  /*--------- Services Styles ---------*/
+  .services .services-item p:nth-child(n+2) {
+    font-size: 14px;
+  }
+  .services .services-item .services-item-title {
+    font-size: 23px !important;
+    line-height: 1.5;
+  }
+  /*--------- Services Styles ---------*/
+  /*--------- Pricing ---------*/
+  .pricing-plan {
+    margin-top: -8%;
+  }
+  .pricing-box .col-sm-12 {
+    margin: 30px 0;
+  }
+  /*--------- Pricing ---------*/
+  /*--------- FAQ Styles ---------*/
+  .faq .area-title .title-down {
+    font-size: 50px;
+  }
+  .faq-inner .faq-inner-item {
+    margin: 20px 0;
+  }
+  .faq-inner .faq-inner-item .faq-inner-item-title span {
+    vertical-align: baseline;
+  }
+  /*--------- FAQ Styles ---------*/
+  /*--------- Comment Styles ---------*/
+  .comment .area-title .title-down {
+    font-size: 45px;
+  }
+  .comment .comment-inner .msg::before {
+    opacity: 0;
+  }
+  /*---------- Comment Styles ----------*/
+  /*---------- Features Styles ----------*/
+  .features .features-tab ul li a {
+    font-size: 14px;
+  }
+  .tab-inner-right .tab-inner-title1 {
+    font-size: 14px;
+  }
+  .tab-inner-right .tab-inner-title2 {
+    font-size: 40px;
+  }  
+  /*---------- Features Styles ----------*/
+  /*---------- Action Styles ----------*/
+  .action .area-title .title-up {
+    font-size: 14px;
+  }
+  .action .area-title .title-down {
+    font-size: 30px;
+  }
+  .action .action-btn a {
+    padding: 20px 18px;
+    font-size: 12px;
+  }
+  /*---------- Action Styles ----------*/
+  /*---------- Contact Styles ----------*/
+  .contact-inner .contact-right .contact-right-address .address p {
+    font-size: 14px;
+  }
+  /*---------- Contact Styles ----------*/
+  /*---------- Support Styles ----------*/
+  .support-item {
+    margin: 7px;
+  }
+  .support-item i {
+    font-size: 30px;
+    padding-right: 10px;
+    vertical-align: super;
+  }
+  .support-item .support-item-title .support-title-up {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .support-item .support-item-title .support-title-down {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  /*---------- Support Styles ----------*/
+  /*---------- Chat Styles ----------*/
+  .live-chat img {
+    padding-top: 6%;
+  }
+  /*---------- Chat Styles ----------*/
+  /*---------- Footer Styles ----------*/
+  .footer-services,
+  .more-pages {
+    margin-top: 5%;
+  }
+  /*---------- Footer Styles ----------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*------------ Basic Styles ------------*/
+  .area-title .title-up {
+    font-size: 12px;
+  }
+  .area-title .title-down {
+    font-size: 30px;
+  }
+  /*------------ Basic Styles ------------*/
+  /*------------ Header Styles ------------*/
+  .header-top .header-top-left .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-top-right {
+    margin-top: 2%;
+  }
+  .header-top .header-top-right .item i {
+    font-size: 10px;
+  }
+  .header-top .header-top-right .item p {
+    font-size: 8px;
+  }
+  .header-top .header-top-right .item h4 {
+    font-size: 10px;
+  }
+  nav.navbar.bootsnav ul.nav > li > a,
+  nav.navbar.bootsnav ul.nav > li.dropdown > a {
+    font-size: 12px;
+    width: 13%;
+  }
+  nav.navbar.bootsnav ul.nav > li.button1 > a {
+    width: 30%;
+    font-size: 10px;
+  }
+  /*---------- Header Styles ----------*/
+  /*---------- Banner Styles ----------*/
+  .banner .banner-inner .banner-inner-right p {
+    padding: 12px 0 0 0;
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+  .domain-form input {
+    padding: 6px 35px 6px 14px;
+  }
+  .domain-form ::-webkit-input-placeholder { /* Chrome */
+    font-size: 10px;
+  }
+  .domain-form  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 10px;
+  }
+  .domain-form  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 10px;
+  }
+  .domain-form  :-moz-placeholder { /* Firefox 4 - 18 */
+    font-size: 10px;
+  }
+  .domain-form select {
+    font-size: 10px;
+    padding: 6px 22px 6px 0px;
+  }
+  .domain-search.button1 a {
+    font-size: 9px;
+    padding: 12px 8px 12px 8px !important;
+    margin-left: -40px !important;
+  }
+  /*---------------- Banner Styles ----------------*/
+  /*---------------- Features Styles ----------------*/
+  .feature-item {
+    margin: 10px 0;
+  }
+  .feature .feature-item h3 {
+    font-size: 20px;
+  }
+  .feature .feature-item p {
+    font-size: 12px;
+  }
+  /*---------------- Features Styles ----------------*/
+  /*---------------- Client Styles---------------- */
+  .client {
+    padding: 90px 0;
+  }
+  .client .client-title p {
+    font-size: 30px;
+  }
+  .client-story .client-story-inner {
+    padding: 60px 0;
+    margin-top: 0;
+  }
+  .client-story .client-story-inner-right p:first-child {
+    font-size: 14px;
+  }
+  .client-story .client-story-inner-right-title {
+    font-size: 30px;
+    line-height: 0.5;
+  }
+  .client-story .client-story-inner-right p:nth-child(4) {
+    font-size: 12px;
+  }
+  .row.client-story-inner video {
+    width: 84vh;
+    height: auto;
+  }
+  /*------------ Client Styles ------------*/
+  /*------------ Services Styles ------------*/
+  .services .area-title {
+    margin-bottom: 45px;
+  }
+  .services-item {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .services-item img {
+    display: block;
+    height: auto;
+    width: auto;
+    margin-left: 40%;
+  }
+  /*------------ Services Styles ------------*/
+  /*------------ Pricing Styles ------------*/
+  .pricing {
+    padding: 100px 0;
+  }
+  .pricing > .container > .area-title {
+    text-align: center;
+  }
+  .pricing-plan {
+    text-align: center;
+    margin-top: 0%;
+  }
+  .pricing-box {
+    margin: 60px 0 0 0;
+  }
+  .pricing-box-item {
+    margin: 15px 0;
+  }
+  .domain-pricing {
+    margin-top: 0;
+  }
+  .domain-pricing::after {
+    top: 102.5%;
+  }
+  /*----------- Pricing Styles -----------*/
+  /*----------- FAQ Styles ----------*/
+  .faq-inner .faq-inner-item {
+    margin: 10px 0;
+  }
+  /*----------- FAQ Styles ----------*/
+  /*----------- Comment Styles -----------*/
+  .owl-dots {
+    left: 35%;
+  }
+  /*----------- Comment Styles -----------*/
+  /*----------- Features Styles -----------*/
+  .features .features-tab ul li a {
+    font-size: 7px;
+    padding: 14px 0px;
+  }
+  .tab-inner-right .tab-inner-title1 {
+    font-size: 12px;
+  }
+  .tab-inner-right .tab-inner-title2 {
+    font-size: 30px;
+  }
+  .tab-inner-right .tab-inner-des {
+    font-size: 12px;
+  }
+  .tab-inner-right a {
+    font-size: 10px;
+    padding: 15px 30px;
+  }
+  .tab-inner video {
+    width: 84vh;
+    height: auto;
+    margin-top: 10%;
+  }
+  /*----------- Features Styles -----------*/
+  /*----------- Action Styles -----------*/
+  .action .area-title {
+    margin-bottom: 12%;
+  }
+  .action .area-title .title-down {
+    font-size: 30px;
+  }
+  .action .action-btn a {
+    font-size: 10px;
+    padding: 15px 30px;
+  }
+  /*---------- Action Styles ----------*/
+  /*---------- Contact Styles ----------*/
+  .contact-form .form-group a {
+    font-size: 10px;
+    padding: 15px 30px;
+  }
+  .contact-inner .contact-right .contact-right-title {
+    font-size: 30px;
+    line-height: 2;
+  }
+  /*---------- Contact Styles ----------*/
+  /*---------- Support Styles ----------*/
+  .support-item {
+    padding: 10px;
+    margin: 8px;
+    width: 30%;
+  }
+  .support-item i {
+    font-size: 18px;
+    padding-right: 5px;
+    vertical-align: super;
+  }
+  .support-item .support-item-title .support-title-up {
+    font-size: 7px;
+    margin-bottom: 0;
+  }
+  .support-item .support-item-title .support-title-down {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  /*---------- Support Styles ----------*/
+  /*---------- Live Chat Styles ----------*/
+  .live-chat a {
+    font-size: 10px;
+    padding: 15px 30px !important;
+    margin: 0 !important;
+  }
+  /*---------- Live Chat Styles ----------*/
+  /*---------- Footer Styles ----------*/
+  .footer-down {
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-down-icons > div {
+    float: none !important;
+  }
+  /*---------- Footer Styles ----------*/
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /*---------- Header Styles ----------*/
+  .header-top .header-top-left .logo img {
+    padding-top: 0;
+  }
+  .header-top .header-top-right .item i {
+    font-size: 8px;
+  }
+  .header-top .header-top-right .item p {
+    line-height: 1.5;
+  }
+  .header-top .header-top-right .item h4 {
+    font-size: 9px;
+    line-height: 1.5;
+  }
+  nav.navbar.bootsnav ul.nav > li > a, nav.navbar.bootsnav ul.nav > li.dropdown > a {
+    width: 19%;
+  }
+  nav.navbar.bootsnav ul.nav > li.button1 > a {
+    font-size: 8px;
+    padding: 8px 14px !important;
+  }
+  /* Header Styles */
+  /* Banner Styles */
+  .banner .banner-inner .banner-inner-right p {
+    font-size: 15px;
+  }
+  .domain-form input {
+    padding: 6px 35px 6px 14px;
+  }
+  .domain-form select {
+    font-size: 8px;
+    margin-left: 0;
+    padding: 7px 10px 6px 30px;
+    background-size: 5px;
+    background-position-x: 94%;
+    background-position-y: 53%;
+  }
+  .domain-form > .domain-search.button1 a {
+    font-size: 6px;
+    margin-left: 60px !important;
+  }
+  /*------------ Banner Styles ------------*/
+  /*------------ Client Styles ------------*/
+  .client .client-title p {
+    font-size: 25px;
+  }
+  /*------------ Client Styles ------------*/
+  /*------------ Pricing Styles ------------*/
+  .pricing-plan {
+    margin-top: 15%;
+  }
+  .pricing-plan p:first-child {
+    margin-right: -10%;
+  }
+  /*------------ Pricing Styles------------ */
+  /*------------ Client Styles ------------*/
+  .row.client-story-inner video {
+    width: 55vh;
+    height: auto;
+  }
+  /*------------ Client Styles ------------*/
+  /*------------ Faq Styles------------ */
+  .faq-inner .faq-inner-item .faq-inner-item-title span {
+    font-size: 14px;
+    padding: 8px;
+    margin-left: -15%;
+  }
+  .faq-inner .faq-inner-item .faq-inner-item-title p {
+    font-size: 20px;
+  }
+  /*------------ Faq Styles ------------*/
+  /*------------ Comment Styles ------------*/
+  .comment .area-title .title-down {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .comment .comment-inner .msg {
+    font-size: 10px;
+    line-height: 2;
+    padding: 30px 10px;
+    margin-bottom: 30px;
+  }
+  .comment .comment-inner .msg::before {
+    opacity: 0;
+  }
+  .comment .comment-inner .comment-person .person-company {
+    font-size: 10px;
+    margin: 0;
+  }
+  .comment .comment-inner .comment-person .person-name {
+    font-size: 15px;
+  }
+  /*------------ Comment Styles ------------*/
+  /*------------ Features Styles------------ */
+  .features .features-tab ul li a i {
+    padding-right: 3px;
+  }
+  .features .features-tab ul li a {
+    font-size: 6px;
+  }
+  .tab-inner video {
+    width: 55vh;
+    height: auto;
+    margin-top: 10%;
+  }
+  /*------------ Features Styles ------------*/
+  /*------------ Action Styles ------------*/
+  .action .action-btn a:first-child {
+    line-height: 8;
+  }
+  /*------------ Action Styles ------------*/
+  /*------------ Support Styles ------------*/
+  .support-item {
+    padding: 8px;
+    margin: 5px;
+  }
+  /*------------ Support Styles ------------*/
+  /*---------- Live Chat Styles ----------*/
+  .live-chat a {
+    padding: 10px 20px !important;
+  }
+  /*---------- Live Chat Styles ----------*/
+  /*------------ Footer Styles ------------*/
+  .footer .footer-item-title {
+    font-size: 19px;
+  }
+  .footer-item {
+    width: 100%;
+    margin-bottom: 32%;
+  }
+  /*------------ Footer Styles ------------*/
+}

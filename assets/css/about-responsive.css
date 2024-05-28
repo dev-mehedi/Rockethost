@@ -1,0 +1,230 @@
+/*--------------- About Page Responsive Styles ------------*/
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	/*--------- Basic Styles -------*/
+  .area-title .title-up {
+    font-size: 14px;
+  }
+  .area-title .title-down {
+    font-size: 50px;
+  }
+  /*----------- Host Business Styles -----------*/
+  .host-business .host-business-title-right p {
+    font-size: 30px;
+  }
+  .host-business .host-business-title-left p {
+    padding: 0 0 0 10px;
+  }
+  /*----------- Host Business Styles -----------*/
+  /*----------- Features Styles -----------*/
+  .features .feature-item {
+    margin: 10px 0;
+  }
+  /*----------- Features Styles -----------*/
+  /*----------- Team Styles -----------*/
+  .team-title .team-title-up p {
+    font-size: 10px;
+  }
+  .team-title .team-title-down p {
+    font-size: 14px;
+  }
+  /*----------- Team Styles -----------*/
+  /*----------- Job Styles -----------*/
+  .job .job-des p {
+    font-size: 14px;
+  }
+  /*----------- Job Styles -----------*/
+  /*----------- Client Styles ---------*/
+  .client .client-title p {
+    font-size: 50px;
+  }
+  /*----------- Client Styles ---------*/
+  /*----------- Mission Styles ----------*/
+  .mission-inner-plan p:first-child {
+    margin-right: -4%;
+  }
+  .mission-inner-left .mission-inner-title .inner-down p {
+    font-size: 40px;
+  }
+  .mission-inner-left .mission-inner-title .inner-up p {
+    font-size: 14px;
+  }
+  .mission-inner-left .mission-inner-des p {
+    font-size: 14px;
+  }
+  /*----------- Mission Styles ----------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*----------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0px 20px;
+  }
+  .page-header .header-pagination p {
+    margin: 12px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 50px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*----------- Page Header Styles ----------*/
+  /*----------- Host Business Styles ---------*/
+  .host-business .host-business-title-right p {
+    font-size: 40px;
+  }
+  .host-business .host-business-title-left p {
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: justify;
+  }
+  .host-business .host-business-video video {
+    width: 450px;
+    height: auto;
+  }
+  /*----------- Host Business Styles ---------*/
+  /*----------- Team Styles ----------*/
+  .team-details-item {
+    margin: 15px 0;
+  }
+  /*----------- Team Styles ----------*/
+  /*----------- Job Styles ----------*/
+  .job .job-des p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  /*----------- Job Styles ----------*/
+  /*----------- Mission Styles ----------*/
+  .mission-inner-plan p:first-child {
+    margin-right: -4%;
+  }
+  .mission-inner-left .mission-inner-title .inner-up p {
+    font-size: 14px;
+  }
+  .mission-inner-left .mission-inner-title .inner-down p {
+    font-size: 40px;
+  }
+  .mission-inner-left .mission-inner-des p {
+    font-size: 14px;
+  }
+  .owl-nav {
+    top: -14%;
+  }
+  /*----------- Mission Styles ----------*/
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /*---------- Basic Styles ---------*/
+  .area-title .title-down {
+    font-size: 25px;
+  }
+  /*---------- Basic Styles ---------*/
+  /*---------- Pgae Header Styles -----------*/
+  .page-header .header-pagination p a {
+    font-size: 10px;
+  }
+  .page-header .header-pagination p a {
+    padding: 0 15px;
+  }
+  .page-header .header-pagination p {
+    margin: 6px 0;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 40px;
+  }
+  .page-header .page-header-title h2 {
+    margin-top: 5%;
+  }
+  .page-header .page-header-title p {
+    font-size: 12px;
+  }
+  /*---------- Pgae Header Styles -----------*/
+  /*---------- Host Business Styles -------*/
+  .host-business-title-right {
+    border-right: none;
+    width: 100%;
+  }
+  .host-business .host-business-title-right p {
+    font-size: 30px;
+  }
+  .host-business .host-business-title-left p {
+    width: 200%;
+    font-size: 12px;
+  }
+  .host-business .host-business-video video {
+    width: 295px;
+  }
+  /*---------- Host Business Styles -------*/
+  /*---------- Features Styles ----------*/
+  .features .feature-item {
+    padding: 40px 20px;
+  }
+  .features .feature-item h3 {
+    font-size: 25px;
+  }
+  .features .feature-item p {
+    font-size: 12px;
+  }
+  /*---------- Features Styles ----------*/
+  /*---------- Team Styles ---------*/
+  .team-title .team-title-up p {
+    font-size: 10px;
+  }
+  .team-title .team-title-down p {
+    font-size: 12px;
+  }
+  /*---------- Team Styles ---------*/
+  /*---------- Job Styles ----------*/
+  .job .job-des p {
+    font-size: 12px;
+  }
+  .job .job-des a {
+    font-size: 10px;
+  }
+  /*---------- Job Styles ----------*/
+  /*---------- Client Story Styles ---------*/
+  .client-story-inner-left video {
+    width: 295px;
+    height: auto;
+  }
+  .client-story .client-story-inner-right p:first-child {
+    font-size: 12px;
+  }
+  .client-story .client-story-inner-right-title {
+    font-size: 25px;
+  }
+  /*---------- Client Story Styles ---------*/
+  /*---------- Mission Styles -----------*/
+  .mission-inner-plan p {
+    font-size: 12px;
+  }
+  .mission-inner-plan p:first-child {
+    margin-right: -8%;
+  }
+  .mission-inner-left .mission-inner-title .inner-up p {
+    font-size: 12px;
+  }
+  .mission-inner-left .mission-inner-title .inner-down p {
+    font-size: 25px;
+  }
+  .mission-inner-left .mission-inner-des p {
+    font-size: 12px;
+  }
+  .mission-inner-left .mission-inner-des a {
+    font-size: 12px;
+  }
+  .owl-prev, .owl-next {
+    padding: 10px 15px;
+  }
+  .owl-nav {
+    top: -25%;
+  }
+  /*---------- Mission Styles -----------*/
+}

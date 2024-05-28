@@ -1,0 +1,132 @@
+/*------------ 404 Page Resposive Styles ------------*/
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*--------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 25px;
+  }
+  .page-header .header-pagination p {
+    margin: 15px 0;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 50px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*--------- Page Header Styles ----------*/
+  /*--------- 404 Styles ---------*/
+  .part-404 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: none !important;
+  }
+  .part-404 .inner-404 {
+    margin-top: 8%;
+    float: none !important;
+    text-align: center;
+  }
+  .part-404 .inner-404 p {
+    margin-bottom: 4%;
+    font-size: 25px;
+  }
+  /*--------- 404 Styles ---------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*--------- Page Header Styles ---------*/
+  .header-pagination {
+    padding: 0 15px;
+  }
+  .page-header .header-pagination p {
+    margin: 10px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 40px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*--------- Page Header Styles ---------*/
+  /*--------- 404 Styles ---------*/
+  .part-404 {
+    padding: 100px 0;
+  }
+  .part-404 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: none !important;
+  }
+  .part-404 .inner-404 {
+    margin-top: 8%;
+    float: none !important;
+    text-align: center;
+  }
+  .part-404 .inner-404 p:first-child {
+    font-size: 100px;
+    margin-bottom: 3%;
+  }
+  .part-404 .inner-404 p {
+    margin-bottom: 7%;
+    font-size: 20px;
+  }
+  /*--------- 404 Styles ---------*/
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /*--------- Page Header Styles ---------*/
+  .page-header {
+    padding: 130px 0 80px 0;
+  }
+  .header-pagination {
+    padding: 0 5px;
+  }
+  .page-header .header-pagination p {
+    margin: 6px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 10px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 35px;
+  }
+  .page-header .page-header-title p {
+    font-size: 12px;
+  }
+  /*--------- Page Header Styles ---------*/
+  /*--------- 404 Styles ---------*/
+  .part-404 {
+    padding: 70px 0;
+  }
+  .part-404 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: none !important;
+  }
+  .part-404 .inner-404 {
+    margin-top: 8%;
+    float: none !important;
+    text-align: center;
+  }
+  .part-404 .inner-404 p:first-child {
+    font-size: 70px;
+    margin-bottom: 3%;
+  }
+  .part-404 .inner-404 p {
+    margin-bottom: 7%;
+    font-size: 16px;
+  }
+  /*--------- 404 Styles ---------*/
+}

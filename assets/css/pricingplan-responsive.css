@@ -1,0 +1,55 @@
+/*------------ Pricing Plan Page Resposive Styles ------------*/
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*---------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 20px;
+  }
+  .page-header .header-pagination p {
+    margin: 15px 0;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 50px;
+  }
+  /*---------- Page Header Styles ----------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*---------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 15px;
+  }
+  .page-header .header-pagination p {
+    margin: 10px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 45px;
+  }
+  /*---------- Page Header Styles ----------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 480px) {
+  /*---------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 10px;
+  }
+  .page-header .header-pagination p {
+    margin: 6px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 10px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 40px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*---------- Page Header Styles ----------*/
+}

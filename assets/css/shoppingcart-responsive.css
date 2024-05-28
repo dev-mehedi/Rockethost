@@ -1,0 +1,195 @@
+/*------------ Shopping Cart Resposive Styles ------------*/
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*---------- Cart Styles ------------*/
+  .cart .cart-details .cart-item .cart-item-name {
+    font-size: 22px;
+  }
+  .cart .cart-details .cart-item .cart-item-price {
+    font-size: 16px;
+  }
+  .cart .cart-item .cart-item-total {
+    font-size: 16px;
+  }
+  .cart .cart-details .cart-item .cart-item-quantity input {
+    font-size: 12px;
+  }
+	/*---------- Cart Styles ------------*/
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*--------- Page Header Styles ----------*/
+  .header-pagination {
+    padding: 0 25px;
+  }
+  .page-header .header-pagination p {
+    margin: 15px 0;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 50px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*--------- Page Header Styles ----------*/
+  /*--------- Cart Styles -----------*/
+  .cart .cart-title p {
+    font-size: 14px;
+  }
+  .cart .cart-details .cart-item .cart-item-name {
+    font-size: 20px;
+  }
+  .cart .cart-details .cart-item .cart-item-price {
+    font-size: 15px;
+  }
+  .cart .cart-item .cart-item-total {
+    font-size: 15px;
+  }
+  .cart .cart-process .cart-coupon a {
+    margin-left: -11% !important;
+    font-size: 12px;
+    padding: 18px 25px !important;
+  }
+  .cart .cart-process .cart-btn a {
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 18px 25px !important;
+  }
+  .cart .cart-process .cart-btn {
+    margin-top: 5%;
+  }
+  /*--------- Cart Styles -----------*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /*--------- Page Header Styles ---------*/
+  .header-pagination {
+    padding: 0 15px;
+  }
+  .page-header .header-pagination p {
+    margin: 10px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 12px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 40px;
+  }
+  .page-header .page-header-title p {
+    font-size: 14px;
+  }
+  /*--------- Page Header Styles ---------*/
+  /*--------- Cart Styles ---------------*/
+  .cart {
+    padding: 70px 0;
+  }
+  .cart .cart-title p {
+    font-size: 12px;
+  }
+  .cart .cart-details .cart-item .cart-item-name {
+    font-size: 18px;
+  }
+  .cart .cart-details .cart-item .cart-item-price {
+    font-size: 12px;
+  }
+  .cart .cart-details .cart-item .cart-item-quantity input {
+    font-size: 12px;
+  }
+  .cart .cart-item .cart-item-total {
+    font-size: 12px;
+  }
+  .cart .cart-process .cart-coupon a {
+    margin-left: -26% !important;
+    padding: 16px 12px !important;
+    font-size: 10px;
+  }
+  .cart .cart-process .cart-coupon input {
+    padding: 10px 0 10px 15px;
+    font-size: 12px;
+  }
+  .cart .cart-process .cart-btn {
+    margin-top: 0;
+  }
+  .cart .cart-process .cart-btn a {
+    font-size: 10px;
+    line-height: 6;
+    padding: 16px 25px !important;
+  }
+  .cart .cart-process .cart-total h3 {
+    font-size: 25px;
+  }
+  .cart .cart-process .cart-total p {
+    font-size: 12px;
+  }
+  /*--------- Cart Styles ---------*/
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /*--------- Page Header Styles ---------*/
+  .page-header {
+    padding: 130px 0 80px 0;
+  }
+  .header-pagination {
+    padding: 0 5px;
+  }
+  .page-header .header-pagination p {
+    margin: 6px 0;
+  }
+  .page-header .header-pagination p a {
+    font-size: 10px;
+  }
+  .page-header .page-header-title h2 {
+    font-size: 35px;
+  }
+  .page-header .page-header-title p {
+    font-size: 12px;
+  }
+  /*--------- Page Header Styles ---------*/
+  /*--------- Cart Styles ---------*/
+  .cart {
+    padding: 50px 0;
+  }
+  .cart .cart-title p {
+    font-size: 10px;
+  }
+  .cart .cart-details .cart-item .cart-item-name {
+    font-size: 14px;
+  }
+  .cart .cart-details .cart-item .cart-item-price {
+    font-size: 10px;
+    margin-left: -35%;
+  }
+  .cart .cart-details .cart-item .cart-item-quantity {
+    width: 100%;
+  }
+  .cart .cart-item .cart-item-total {
+    font-size: 10px;
+    margin-left: -20%;
+  }
+  .cart .cart-process .cart-coupon input {
+    padding: 6px 0 6px 10px;
+    font-size: 10px;
+  }
+  .cart .cart-process .cart-coupon a {
+    font-size: 8px;
+    line-height: 5;
+    padding: 12px !important;
+    margin-left: 19% !important;
+  }
+  .cart .cart-process .cart-btn a {
+    font-size: 6.9px;
+    padding: 12px 15px !important;
+    margin: 0 0 0 21% !important;
+  }
+  .cart .cart-process .cart-total h3 {
+    font-size: 20px;
+  }
+  .cart .cart-process .cart-total p {
+    font-size: 10px;
+  }
+  /*--------- Cart Styles ---------*/
+}
